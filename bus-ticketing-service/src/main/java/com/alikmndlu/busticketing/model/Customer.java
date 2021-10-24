@@ -14,7 +14,6 @@ import javax.validation.constraints.NotBlank;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
 public class Customer extends BaseModel<Long> {
 
     @Column(name = "username", nullable = false, unique = true)
