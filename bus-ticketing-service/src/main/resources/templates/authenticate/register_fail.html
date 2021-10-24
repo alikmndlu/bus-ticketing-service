@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Register Status</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+<div class="container text-center">
+    <h3>Your Registration Has Been Failed!</h3>
+    <h4 th:text="${message}"></h4>
+    <h4><a th:href="@{/register}">Click here to Register Again</a></h4>
+</div>
+
+</body>
+</html>
